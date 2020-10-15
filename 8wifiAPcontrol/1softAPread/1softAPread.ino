@@ -9,7 +9,7 @@
 //////////////////////
 // WiFi Definitions //
 //////////////////////
-const char WiFiAPPSK[] = "kiki";
+const char WiFiAPPSK[] = "ESPAP";
 //const char* ssid = ""; // wifi 이름
 //const char* password = "";//패스워드
 
@@ -88,20 +88,20 @@ void loop()
   if (val >= 0)
   {
     s += "<h4>LED is now ";
-    s += (val)?"on":"off</h4>";
+    s += (val)?"on":"off";
     if(val == 1){
       s += "<p><a href='/led/1'><button class='button'>ON</button></a></p>";
     } else { 
-      s += "<p><a href='/led/0'><button class='button button2'>OFF</button></a></p>"; 
+      s += "<p><a href='/led/0'><button class='button button2'>OFF</button></a></p></h4>"; 
     }
   }
   else if (val == -2)
   { // If we're reading pins, print out those values:
-    s += "Analog Pin = ";
+    s += "<h4>Analog Pin = ";
     s += String(analogRead(adcPin));
     s += "<br>"; // Go to the next line.
     s += "Digital Pin D2 = ";
-    s += String(digitalRead(swPin));
+    s += String(digitalRead(swPin));"</h4>";
   }
   else
   {
