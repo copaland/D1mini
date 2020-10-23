@@ -8,14 +8,14 @@ esp8266 iot contol
 https://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ## ESP-WROOM-02 pinmap 
-D0  16 LED PULLUP 10K
-D1  5 
-D2  4 
-D3  0 FLASH LEFT (Button SW)
-D4  2  (SDA)
-D5  14 (SCL)OK
-D6  12 R UP
-D7  13 B DOWN
-D8  15 G PULLDOWN 10K (DC MOTOR)
-D9  3 RX  
-D10 1 TX 
+D0  16 LED PULLUP 10K    
+D1  5     
+D2  4     
+D3  0 FLASH LEFT (Button SW)    
+D4  2  (SDA)    
+D5  14 (SCL)OK    
+D6  12 R UP     
+D7  13 B DOWN     
+D8  15 G PULLDOWN 10K (DC MOTOR)    
+D9  3 RX      
+D10 1 TX     
