@@ -17,8 +17,8 @@ Wire OLED:
   
 // Replace with your network credentials
 
-const char* ssid = "dlink-EBE2";//"wifi-name";
-const char* password = "zdcvm97008";//"wifi-pass";                          
+const char* ssid = "wifi-name";
+const char* password = "wifi-pass";                          
 char dbuffer[32];
 char tbuffer[32];
 char htemp[8];
