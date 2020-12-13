@@ -21,8 +21,8 @@ RX  3
 #define WIFI_MODE   1// 1 = AP mode, 2 = STA mode
 #define SSID_AP     "IoT-AP"    // for AP mode
 #define PASSWORD_AP "12345678" // for AP mode
-#define SSID_STA     "dlink-EBE2"     // wifi_ssid for STA mode
-#define PASSWORD_STA "zdcvm97008" // wifi_password for STA mode
+#define SSID_STA     "wifi_ssid"     // wifi_ssid for STA mode
+#define PASSWORD_STA "wifi_password" // wifi_password for STA mode
 
 // pin settings
 #define LED1_PIN    2   //16 pin 1 of (D0)led
