@@ -16,8 +16,9 @@ Wire OLED:
 #include <Wire.h> //i2c
   
 // Replace with your network credentials
-const char *ssid     = "your-id";                              
-const char *password = "your-pass";                             
+
+const char* ssid = "dlink-EBE2";//"wifi-name";
+const char* password = "zdcvm97008";//"wifi-pass";                          
 char dbuffer[32];
 char tbuffer[32];
 char htemp[8];

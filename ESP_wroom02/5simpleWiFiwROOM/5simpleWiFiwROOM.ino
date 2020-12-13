@@ -1,6 +1,6 @@
 /*
-//AP mode test OK good 20201015
-//WiFi 설정 IoT-AP 연결 스마트고 프로젝트
+//AP mode test OK good 20201031
+//WiFi 설정 IoT-AP 연결 MOTOR CONTROL 프로젝트
 ESP-WROOM-02 app control
 D0  16 LED PULLUP 10K
 D1  5 
@@ -31,7 +31,7 @@ IPAddress gateway(192, 168, 4, 1); //IP for AP mode
 IPAddress subnet(255, 255, 255, 0); //IP for AP mode
 ESP8266WebServer server(80);
 
-int set_mode = 1; //0 select mode action
+int set_mode = 0; //0 select mode action
 
 // initialize
 void setup() {
@@ -114,15 +114,15 @@ void auto_action() {
       break;
     case 1: // MOTOR On
       digitalWrite(LED1_PIN, LOW);
-      analogWrite(MOT1_PIN, 208);
+      analogWrite(MOT1_PIN, 300);
       break;
     case 2: // MOTOR On
       digitalWrite(LED1_PIN, LOW);
-      analogWrite(MOT1_PIN, 224);
+      analogWrite(MOT1_PIN, 550);
       break;
     case 3: // MOTOR On
       digitalWrite(MOT1_PIN, LOW);
-      analogWrite(MOT1_PIN, 248);
+      analogWrite(MOT1_PIN, 800);
       break;
     case 4: // MOTOR Off
       digitalWrite(LED1_PIN, HIGH);

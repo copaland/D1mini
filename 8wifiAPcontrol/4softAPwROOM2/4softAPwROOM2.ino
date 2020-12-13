@@ -20,7 +20,7 @@ D10 1 TX
 
 // WiFi settings
 #define WIFI_MODE   1// 1 = AP mode, 2 = STA mode
-#define SSID_AP     "ESP-AP"    // for AP mode
+#define SSID_AP     "IoT-AP"    // for AP mode
 #define PASSWORD_AP "12345678" // for AP mode
 #define SSID_STA     "wifi_ssid"     // for STA mode
 #define PASSWORD_STA "wifi_password" // for STA mode
