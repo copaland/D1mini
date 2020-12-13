@@ -17,13 +17,13 @@ D8  15 SS
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
 
-#define WIFI_SSID "dlink-EBE2"//"<Your Wifi SSID>"
-#define WIFI_PASS "zdcvm97008"//"<Your WiFi Password>"
+#define WIFI_SSID "Your Wifi SSID"//"<Your Wifi SSID>"
+#define WIFI_PASS "Your WiFi Password"//"<Your WiFi Password>"
 
 #define MQTT_SERV "io.adafruit.com"
 #define MQTT_PORT 1883
-#define MQTT_NAME "kimson"//"<Adafruit IO Username>"
-#define MQTT_PASS "aio_IGMS54gYYo1Zl5lBkWRhDDzx9YSr"//"<Adafruit IO Key>"
+#define MQTT_NAME "Adafruit IO Username"//"<Adafruit IO Username>"
+#define MQTT_PASS "Adafruit IO Key"//"<Adafruit IO Key>"
 
 //Set up MQTT and WiFi clients
 WiFiClient client;
