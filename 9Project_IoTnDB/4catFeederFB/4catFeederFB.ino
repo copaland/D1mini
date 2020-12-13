@@ -18,11 +18,11 @@ firebase esp8266 client library
 
 #include <FirebaseESP8266.h>
 #include  <ESP8266WiFi.h>
-#define WIFI_SSID "dlink-EBE2"//"<Your Wifi SSID>"
-#define WIFI_PASS "zdcvm97008"//"<Your WiFi Password>"
+#define WIFI_SSID "Your Wifi SSID"//"<Your Wifi SSID>"
+#define WIFI_PASS "Your WiFi Password"//"<Your WiFi Password>"
 
-#define FIREBASE_HOST "home-automation-28a52-default-rtdb.firebaseio.com" //Firebase Project URL:Remove "https:", "/"
-#define FIREBASE_AUTH "vYj3va8JzMzftg8IWtDgjfSCqRPMrqba64j1TxMi"      //Firebase Auth Token
+#define FIREBASE_HOST "Firebase Project URL" //Firebase Project URL:Remove "https:", "/"
+#define FIREBASE_AUTH "Firebase Auth Token"      //Firebase Auth Token
 
 FirebaseData fbData;
 
