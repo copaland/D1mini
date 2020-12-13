@@ -32,13 +32,13 @@ D8  15 SS
 #include <BlynkSimpleEsp8266.h>
 
 #ifndef STASSID
-  #define STASSID "dlink-EBE2"
-  #define STAPASS "zdcvm97008"
+  #define STASSID "YourNetworkName"
+  #define STAPASS "YourPassword"
 #endif
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "ULeFz8-oM7mpgEw4niDAMSv1hOWifp94";//"YourAuthToken";
+char auth[] = "YourAuthToken";//"YourAuthToken";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
